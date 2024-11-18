@@ -1,0 +1,119 @@
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 320px;
+  height: 100%;
+  padding: 15px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  transition: ease 0.2s;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+
+.cardItem:hover {
+  cursor: pointer;
+  scale: 1.3;
+}
+
+.cardItem:hover .selectQuantityWrapper {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+.cardImg {
+  display: flex;
+  width: 80%;
+  object-fit: cover;
+}
+
+.flowerPrice {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  padding-bottom: 10px;
+}
+
+.flowerTitle {
+  font-size: clamp(0.5rem, 2.5vw, 1.3rem);
+  color: #00000095;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.selectQuantityWrapper {
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+}
+
+.amountCounter {
+  display: flex;
+  align-items: center;
+  max-height: 35px;
+  height: 100%;
+  /* gap: 15px; */
+  /* padding: 0px 15px; */
+  border: 1px solid rgb(226, 225, 225);
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+
+.amountCounter div {
+  margin: 0px 0px;
+  padding: 6px 15px;
+  border-left: 1px solid rgb(226, 225, 225);
+  border-right: 1px solid rgb(226, 225, 225);
+}
+
+.amountCounter span {
+  display: flex;
+  padding: 6px 15px;
+  border-radius: 10px 0px 0px 10px;
+  -webkit-border-radius: 10px 0px 0px 10px;
+  -moz-border-radius: 10px 0px 0px 10px;
+  transition: 0.3s ease;
+}
+
+.amountCounter span:last-child {
+  display: flex;
+  padding: 6px 15px;
+  border-radius: 0px 10px 10px 0px;
+  -webkit-border-radius: 0px 10px 10px 0px;
+  -moz-border-radius: 0px 10px 10px 0px;
+}
+
+.amountCounter span:hover {
+  background-color: #df7692;
+}
+
+.orderbutton {
+  cursor: pointer;
+  font-size: 13px;
+  padding: 10px 25px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: #a93b59;
+  transition: 0.2s ease;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+
+.orderbutton:hover {
+  background-color: #c35e79;
+}

@@ -1,0 +1,20 @@
+.blockTitle {
+  display: inline-block;
+
+  font-family: serif;
+  font-size: 36px;
+  color: #a93b59;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.blockTitle::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #a93b59;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,19 @@
+.titleWpar {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.aboutTitle {
+  padding-right: calc(100vw / 100 * 18);
+}
+
+.aboutWrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+}
+
+.imgAbout {
+  max-width: 100%;
+}

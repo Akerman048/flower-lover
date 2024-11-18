@@ -1,0 +1,11 @@
+.titleWrap {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+
+
+.reviewsTitle {
+  padding-right: calc(100vw / 100 * 18);
+}

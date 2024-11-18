@@ -1,0 +1,37 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.formInput {
+  display: block;
+  font-size: calc(calc(1vw + 1vh) * 1);
+  width: 100%;
+  padding: 10px 50px 15px 15px;
+  outline: none;
+  border: 0px solid #000000;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+
+.formButton {
+  display: block;
+  font-size: calc(calc(1vw + 1vh) * 1);
+  width: 100%;
+  padding: 10px 10px;
+  color: #ffffff;
+  background-color: #a93b59;
+  transition: .3s ease;
+  cursor: pointer;
+  border: 0px ;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+
+.formButton:hover {
+    background-color: #a93b58cb;
+  }

@@ -1,0 +1,63 @@
+.howToOrderWrapper{
+    position: relative;
+}
+
+.howtoorderBG{
+    position: absolute;
+    z-index: -1;
+    max-width: 50%;
+    left: -60px;
+}
+
+.howToOrderTitle{
+    padding-left: 100px;
+}
+
+.howToOrderContent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 50px;
+    background-color: #b96a7f9c;
+    padding: 36px 110px 60px;
+    margin: 0px -60px;
+}
+
+.howToOrderForm{
+    max-width: 300px;
+}
+
+.howToOrderForm h4 {
+    font-size: 24px;
+    padding: 0px 10px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.howToOrderForm span {
+    font-weight: bold;
+}
+
+.howToOrderManagerTitle h4{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.howToOrderManagerDescr li{
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 50px;
+}
+
+.howToOrderManagerDescr li:last-child {
+    margin-bottom: 0;
+}
+
+.check{
+    position: absolute;
+    font-size: 36px;
+    top: 0;
+    transform: translateY(-10%);
+    left: 0;
+    color: #682134;
+}

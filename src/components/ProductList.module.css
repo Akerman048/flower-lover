@@ -1,0 +1,35 @@
+.productListContainer {
+  padding: 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 75px;
+}
+
+@media (max-width: 1440px) {
+    .productListContainer {
+        padding: 30px;
+        
+        gap: 35px;
+      }
+}
+
+.buttonMore {
+  padding: 20px 70px;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid;
+  text-transform: uppercase;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  transition: .3s;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.buttonMore:hover{
+    background-color: #ffffff;
+    color: #000;
+}

@@ -1,0 +1,75 @@
+.navbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0px;
+}
+
+.navLinksWrapper {
+  display: flex;
+  gap: 32px;
+}
+
+@media screen and (max-width: 900px) {
+  .navLinksWrapper {
+    display: none;
+  }
+}
+
+.navLinksWrapper a {
+  transition: 0.3s;
+}
+.navLinksWrapper a:hover {
+  color: #f48e8e;
+}
+
+.burgerOpen {
+  display: none;
+  cursor: pointer;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+  .burgerOpen {
+    display: flex;
+  }
+
+  .burgerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+
+    background-color: #000000;
+    gap: 32px;
+
+    z-index: 100;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .navLinksBurgerWrapper {
+    text-align: center;
+    line-height: 2;
+  }
+
+  .navLinksBurgerWrapper li {
+    font-size: 36px;
+  }
+}
+
+.burgerClose {
+  display: flex;
+  position: fixed;
+  top: 36px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 50px;
+  color: #ffffff;
+  z-index: 100;
+}
+

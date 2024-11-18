@@ -1,0 +1,73 @@
+.contactsWrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.contactsWrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60px;
+  right: 0;
+  width: 109%;
+  height: 1px;
+  color: #a93b59;
+  border-top: 1px solid #a93b59;
+}
+
+.contactsMenu li {
+  margin-bottom: 30px;
+}
+.contactsMenu li:last-child {
+  margin-bottom: 0px;
+}
+
+.contactsIconsWrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 34px;
+  color: #a93b59;
+}
+
+.contactsLogoNSoc {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contactsLogo {
+  width: 260px;
+}
+.contactsIcons {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contactsIcons:hover {
+  color: #bb5470;
+  scale: 1.2;
+}
+
+.contactsInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.contactsInfoItem {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.contactsInfoItem a:hover {
+  color: #bb5470;
+}
+
+.contactsInfoItem span {
+  display: block;
+  font-size: 18px;
+}

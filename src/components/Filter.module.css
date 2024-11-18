@@ -1,0 +1,142 @@
+/* .filterContainer {
+  display: block;
+  justify-content: center;
+  max-width: 1085px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #b96a7f99;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+} */
+
+
+
+.filterCategories {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  background-color: #b96a7f;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.filterCategorie {
+  position: relative;
+  flex: 1;
+}
+
+.filterCategorie a {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  flex: 1;
+  min-width: 140px;
+  padding: 10px;
+
+  transition: all 0.3s ease;
+}
+
+.filterCategorie:not(:last-child) {
+  border-right: 1px solid #a0586b;
+}
+
+.filterCategorie a:hover {
+  background-color: #a0586b;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+
+.filterCategorie a::after {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  right: 5%;
+  transform: translateX(-50%) translateY(50%) rotate(-45deg);
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.filterDropDownContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  top: 120%;
+  background-color: #b96a7fee;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-bottom: 100px;
+}
+
+.customCheckbox {
+  display: none;
+}
+
+/* Стиль для лейблу */
+.customLabel {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+  border-bottom: 1px solid #dc98aad2;
+}
+
+/* Стиль для кастомного чекбоксу */
+.customLabel::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #eda7b9;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+/* Стиль для позначки всередині чекбоксу */
+.customCheckbox:checked + .customLabel::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid #eda7b9;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+.filterButton{
+  padding: 5px 10px;
+  cursor: pointer;
+  outline:none;
+  border: none;
+  color: #fff;
+  background-color: #eda7b9;
+  transition: all ease .3s;
+  border-radius: 0px 0px 10px 0px;
+-webkit-border-radius: 0px 0px 10px 0px;
+-moz-border-radius: 0px 0px 10px 0px;
+}
+
+.filterButton:hover{
+  background-color: #b96a7fd2;
+}
