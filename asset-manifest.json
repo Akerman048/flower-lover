@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flower-lover/static/css/main.c7886c1a.css",
-    "main.js": "/flower-lover/static/js/main.52ef67ae.js",
+    "main.css": "/flower-lover/static/css/main.1895ea03.css",
+    "main.js": "/flower-lover/static/js/main.f6077210.js",
     "static/media/catalogBG.png": "/flower-lover/static/media/catalogBG.4a6cf1ed784dd710a8e7.png",
     "static/media/howtoorderBG.png": "/flower-lover/static/media/howtoorderBG.a611307000ceee4ff60f.png",
     "static/media/heroBG.png": "/flower-lover/static/media/heroBG.8d9b211e2942e44b46bd.png",
@@ -15,11 +15,11 @@
     "static/media/1 - Copy.png": "/flower-lover/static/media/1 - Copy.788d0108dcc5d9dd4274.png",
     "static/media/logo.svg": "/flower-lover/static/media/logo.f8da015607c702eccc970e89bb0a59a3.svg",
     "index.html": "/flower-lover/index.html",
-    "main.c7886c1a.css.map": "/flower-lover/static/css/main.c7886c1a.css.map",
-    "main.52ef67ae.js.map": "/flower-lover/static/js/main.52ef67ae.js.map"
+    "main.1895ea03.css.map": "/flower-lover/static/css/main.1895ea03.css.map",
+    "main.f6077210.js.map": "/flower-lover/static/js/main.f6077210.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7886c1a.css",
-    "static/js/main.52ef67ae.js"
+    "static/css/main.1895ea03.css",
+    "static/js/main.f6077210.js"
   ]
 }
