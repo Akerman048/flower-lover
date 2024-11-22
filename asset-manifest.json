@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flower-lover/static/css/main.1895ea03.css",
-    "main.js": "/flower-lover/static/js/main.77431fcf.js",
+    "main.js": "/flower-lover/static/js/main.71d23670.js",
     "static/media/catalogBG.png": "/flower-lover/static/media/catalogBG.4a6cf1ed784dd710a8e7.png",
     "static/media/howtoorderBG.png": "/flower-lover/static/media/howtoorderBG.a611307000ceee4ff60f.png",
     "static/media/heroBG.png": "/flower-lover/static/media/heroBG.8d9b211e2942e44b46bd.png",
@@ -16,10 +16,10 @@
     "static/media/logo.svg": "/flower-lover/static/media/logo.f8da015607c702eccc970e89bb0a59a3.svg",
     "index.html": "/flower-lover/index.html",
     "main.1895ea03.css.map": "/flower-lover/static/css/main.1895ea03.css.map",
-    "main.77431fcf.js.map": "/flower-lover/static/js/main.77431fcf.js.map"
+    "main.71d23670.js.map": "/flower-lover/static/js/main.71d23670.js.map"
   },
   "entrypoints": [
     "static/css/main.1895ea03.css",
-    "static/js/main.77431fcf.js"
+    "static/js/main.71d23670.js"
   ]
 }
